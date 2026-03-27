@@ -21,7 +21,7 @@ class TestAllergen:
             logger.info('过敏原查询开始')
             res = requests.get(url=url+api_url['allergen'], headers=api_headers, params=params, timeout=10)
             logger.info(f'响应内容：{res.json()}')
-            assert res.json().get('msg') == '', logger.info(f'断言不通过，响应内容为：f{res.json().get('msg')}')
+            assert res.json().get('msg') == '', logger.info(f'断言不通过，响应内容为：{res.json().get("msg")}')
             # logger.info(f'断言内容f{res.json().get('msg')}')
 
 
