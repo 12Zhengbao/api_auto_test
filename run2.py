@@ -38,7 +38,8 @@ def main():
     logger.info("🔍 正在打开报告...")
     report_html = os.path.join(os.path.abspath(report_dir), "index.html")
     if os.path.exists(report_html):
-        os.startfile(report_html)
+        # os.startfile(report_html)
+        subprocess.run(['xdg-open', report_html])
     else:
         logger.warning(f"⚠️ 报告文件不存在：{report_html}")
 
