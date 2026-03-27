@@ -12,7 +12,7 @@ def main():
     logger.info("===== 开始执行所有用例 =====")
     # 1. 执行 pytest，去掉 check=True，允许用例失败
     # 等价于：pytest -vs --alluredir=./reports/temp
-    subprocess.run(["pytest", '-vs'], shell=True)
+    subprocess.run(["pytest", '-vs',"test_case/"], shell=True)
     logger.info("===== 所有用例执行结束 =====")
 
     # 2. 检查是否生成了原始数据（先创建目录，避免报错）
