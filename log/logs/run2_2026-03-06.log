@@ -1,0 +1,33 @@
+2026-03-06 19:11:11 | INFO     | run2.py:main:12 | ===== 开始执行所有用例 =====
+2026-03-06 19:12:46 | INFO     | run2.py:main:12 | ===== 开始执行所有用例 =====
+2026-03-06 19:12:48 | INFO     | run2.py:main:16 | ===== 所有用例执行结束 =====
+2026-03-06 19:12:48 | INFO     | run2.py:main:24 | ===== 正在生成Allure测试报告 =====
+2026-03-06 19:12:48 | INFO     | run2.py:main:31 | ✅ 测试报告生成成功！
+2026-03-06 19:12:48 | INFO     | run2.py:main:32 | 📊 报告路径：D:\Code\api_outo\reports\html/index.html
+2026-03-06 19:12:48 | INFO     | run2.py:main:35 | 🔍 正在打开报告...
+2026-03-06 19:14:55 | INFO     | run2.py:main:12 | ===== 开始执行所有用例 =====
+2026-03-06 19:14:57 | INFO     | run2.py:main:16 | ===== 所有用例执行结束 =====
+2026-03-06 19:14:57 | INFO     | run2.py:main:24 | ===== 正在生成Allure测试报告 =====
+2026-03-06 19:14:57 | INFO     | run2.py:main:31 | ✅ 测试报告生成成功！
+2026-03-06 19:14:57 | INFO     | run2.py:main:32 | 📊 报告路径：D:\Code\api_outo\reports\html/index.html
+2026-03-06 19:14:57 | INFO     | run2.py:main:35 | 🔍 正在打开报告...
+2026-03-06 19:15:18 | INFO     | run2.py:main:12 | ===== 开始执行所有用例 =====
+2026-03-06 19:15:20 | INFO     | run2.py:main:16 | ===== 所有用例执行结束 =====
+2026-03-06 19:15:20 | INFO     | run2.py:main:24 | ===== 正在生成Allure测试报告 =====
+2026-03-06 19:15:20 | INFO     | run2.py:main:31 | ✅ 测试报告生成成功！
+2026-03-06 19:15:20 | INFO     | run2.py:main:32 | 📊 报告路径：D:\Code\api_outo\reports\html/index.html
+2026-03-06 19:15:20 | INFO     | run2.py:main:35 | 🔍 正在打开报告...
+2026-03-06 19:15:20 | WARNING  | run2.py:main:41 | ⚠️ 报告文件不存在：D:\Code\api_outo\reports\html\index.html
+2026-03-06 19:15:56 | INFO     | run2.py:main:12 | ===== 开始执行所有用例 =====
+2026-03-06 19:15:58 | INFO     | run2.py:main:16 | ===== 所有用例执行结束 =====
+2026-03-06 19:15:58 | INFO     | run2.py:main:24 | ===== 正在生成Allure测试报告 =====
+2026-03-06 19:15:58 | INFO     | run2.py:main:31 | ✅ 测试报告生成成功！
+2026-03-06 19:15:58 | INFO     | run2.py:main:32 | 📊 报告路径：D:\Code\api_outo\reports\html/index.html
+2026-03-06 19:15:58 | INFO     | run2.py:main:35 | 🔍 正在打开报告...
+2026-03-06 19:15:58 | WARNING  | run2.py:main:41 | ⚠️ 报告文件不存在：D:\Code\api_outo\reports\html\index.html
+2026-03-06 19:27:27 | INFO     | run2.py:main:12 | ===== 开始执行所有用例 =====
+2026-03-06 19:27:29 | INFO     | run2.py:main:16 | ===== 所有用例执行结束 =====
+2026-03-06 19:27:29 | INFO     | run2.py:main:24 | ===== 正在生成Allure测试报告 =====
+2026-03-06 19:27:31 | INFO     | run2.py:main:34 | ✅ 测试报告生成成功！
+2026-03-06 19:27:31 | INFO     | run2.py:main:35 | 📊 报告路径：D:\Code\api_outo\reports\html/index.html
+2026-03-06 19:27:31 | INFO     | run2.py:main:38 | 🔍 正在打开报告...

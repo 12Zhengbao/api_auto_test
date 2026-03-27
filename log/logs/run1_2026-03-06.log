@@ -1,0 +1,696 @@
+2026-03-06 18:50:32 | INFO     | run1.py:<module>:8 | ===== 开始执行所有用例 =====
+2026-03-06 18:50:32 | INFO     | run1.py:<module>:10 | ===== 所有用例执行结束 =====
+2026-03-06 18:51:51 | INFO     | run1.py:<module>:8 | ===== 开始执行所有用例 =====
+2026-03-06 18:51:53 | INFO     | run1.py:<module>:29 | Pytest执行日志：
+============================= test session starts =============================
+platform win32 -- Python 3.13.5, pytest-7.3.1, pluggy-1.6.0 -- D:\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Code\api_outo
+configfile: pytest.ini
+collecting ... collected 9 items
+
+test_case/ls_test_dept.py::TestDept::test_dept 【前置】登录成功，获取token： 4420f1d501 ...
+[32m2026-03-06 18:51:51[0m | [1mINFO    [0m | [36mls_test_dept.py[0m:[36mtest_dept[0m:[36m23[0m | [1m出品部门查询开始[0m
+[32m2026-03-06 18:51:51[0m | [1mINFO    [0m | [36mls_test_dept.py[0m:[36mtest_dept[0m:[36m25[0m | [1m响应内容：{'code': 0, 'data': {'list': [{'id': 435, 'level': 1, 'parentId': 0, 'code': '098071', 'name': '226部门', 'parentName': None, 'brandName': 'CM', 'mnemonic': '226bm', 'createTime': 1772072979000, 'updateTime': 1772072979000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 434, 'level': 1, 'parentId': 0, 'code': '005', 'name': '213出品部门', 'parentName': None, 'brandName': 'CM', 'mnemonic': '213CPBM', 'createTime': 1770974575000, 'updateTime': 1770974575000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 433, 'level': 1, 'parentId': 0, 'code': '002', 'name': '出门部门1', 'parentName': None, 'brandName': 'CM', 'mnemonic': 'CMBM1', 'createTime': 1770974510000, 'updateTime': 1770974510000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 432, 'level': 1, 'parentId': 0, 'code': '6210', 'name': '部门名称279778', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf351622', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 431, 'level': 1, 'parentId': 0, 'code': '1941', 'name': '部门名称245499', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf867770', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 430, 'level': 1, 'parentId': 0, 'code': '3501', 'name': '部门名称100599', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf572841', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 429, 'level': 1, 'parentId': 0, 'code': '3123', 'name': '部门名称897048', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf847402', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 428, 'level': 1, 'parentId': 0, 'code': '2667', 'name': '部门名称751531', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf77062', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 427, 'level': 1, 'parentId': 0, 'code': '6762', 'name': '部门名称220819', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf336500', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 426, 'level': 1, 'parentId': 0, 'code': '962', 'name': '部门名称542275', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf584133', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}], 'total': 172}, 'msg': ''}[0m
+[32m2026-03-06 18:51:51[0m | [1mINFO    [0m | [36mls_test_dept.py[0m:[36mtest_dept[0m:[36m37[0m | [1m出品部门查询结束[0m
+PASSED
+test_case/ls_test_get_allergen.py::TestAllergen::test_allergen [32m2026-03-06 18:51:51[0m | [1mINFO    [0m | [36mls_test_get_allergen.py[0m:[36mtest_allergen[0m:[36m21[0m | [1m过敏原查询开始[0m
+[32m2026-03-06 18:51:52[0m | [1mINFO    [0m | [36mls_test_get_allergen.py[0m:[36mtest_allergen[0m:[36m23[0m | [1m响应内容：{'code': 0, 'data': {'list': [{'id': 166, 'parentId': 163, 'parentName': None, 'code': '099187', 'name': '香菜过敏', 'enable': 1, 'remark': None, 'createTime': 1770975046000, 'creatorName': '郑宝宝', 'updateTime': 1770975046000, 'updaterName': '郑宝宝', 'createName': '郑宝宝', 'updateName': '郑宝宝', 'creator': '151', 'updater': '151'}, {'id': 165, 'parentId': 162, 'parentName': None, 'code': '099186', 'name': '海鲜过敏', 'enable': 1, 'remark': None, 'createTime': 1770975035000, 'creatorName': '郑宝宝', 'updateTime': 1770975035000, 'updaterName': '郑宝宝', 'createName': '郑宝宝', 'updateName': '郑宝宝', 'creator': '151', 'updater': '151'}, {'id': 164, 'parentId': 162, 'parentName': None, 'code': '099185', 'name': '鸡蛋过敏', 'enable': 1, 'remark': '这是鸡蛋孤傲吗', 'createTime': 1770975022000, 'creatorName': '郑宝宝', 'updateTime': 1770975022000, 'updaterName': '郑宝宝', 'createName': '郑宝宝', 'updateName': '郑宝宝', 'creator': '151', 'updater': '151'}], 'total': 3}, 'msg': ''}[0m
+[32m2026-03-06 18:51:52[0m | [1mINFO    [0m | [36mls_test_get_allergen.py[0m:[36mtest_allergen[0m:[36m42[0m | [1m过敏原查询结束[0m
+PASSED
+test_case/ls_test_get_brand.py::TestBrand::test_brands [32m2026-03-06 18:51:52[0m | [1mINFO    [0m | [36mls_test_get_brand.py[0m:[36mtest_brands[0m:[36m21[0m | [1m品牌查询开始[0m
+[32m2026-03-06 18:51:52[0m | [1mINFO    [0m | [36mls_test_get_brand.py[0m:[36mtest_brands[0m:[36m23[0m | [1m响应内容：{'code': 0, 'data': {'list': [{'id': 1841, 'code': '01', 'brandName': '默认品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1750909074000, 'creatorName': '乔乔', 'updateTime': 1750909074000, 'updaterName': '郑宝宝', 'brandId': '99', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1842, 'code': '09', 'brandName': 'CM', 'enableStr': '启用', 'remark': None, 'createTime': 1750922421000, 'creatorName': '乔乔', 'updateTime': 1750923208000, 'updaterName': '郑宝宝', 'brandId': '39', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1843, 'code': '10', 'brandName': '新增品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1758700243000, 'creatorName': '乔乔', 'updateTime': 1758700243000, 'updaterName': '郑宝宝', 'brandId': '163', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1844, 'code': '11', 'brandName': 'h      @#￥%%…………%……&', 'enableStr': '启用', 'remark': None, 'createTime': 1758707439000, 'creatorName': '乔乔', 'updateTime': 1758709169000, 'updaterName': '郑宝宝', 'brandId': '310', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1845, 'code': '12', 'brandName': '1009品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1759975266000, 'creatorName': '乔乔', 'updateTime': 1759975266000, 'updaterName': '郑宝宝', 'brandId': '309', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1846, 'code': '970119082', 'brandName': '1226品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1766737135000, 'creatorName': '乔乔', 'updateTime': 1766737135000, 'updaterName': '郑宝宝', 'brandId': '316', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1847, 'code': '970119083', 'brandName': '固定品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1766737290000, 'creatorName': '乔乔', 'updateTime': 1766737290000, 'updaterName': '郑宝宝', 'brandId': '317', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1848, 'code': '970119084', 'brandName': '1230品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1767075230000, 'creatorName': '乔乔', 'updateTime': 1767075230000, 'updaterName': '郑宝宝', 'brandId': '318', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1849, 'code': '970119085', 'brandName': '1230品牌11-11', 'enableStr': '启用', 'remark': None, 'createTime': 1767075375000, 'creatorName': '乔乔', 'updateTime': 1767075385000, 'updaterName': '郑宝宝', 'brandId': '319', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1850, 'code': '970119086', 'brandName': '130品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1769760700000, 'creatorName': '乔乔', 'updateTime': 1769760700000, 'updaterName': '郑宝宝', 'brandId': '323', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}], 'total': 286}, 'msg': ''}[0m
+[32m2026-03-06 18:51:52[0m | [1mINFO    [0m | [36mls_test_get_brand.py[0m:[36mtest_brands[0m:[36m42[0m | [1m品牌查询结束[0m
+PASSED
+test_case/ls_test_get_spec.py::TestSpec::test_spec [32m2026-03-06 18:51:52[0m | [1mINFO    [0m | [36mls_test_get_spec.py[0m:[36mtest_spec[0m:[36m22[0m | [1m规格查询开始[0m
+[32m2026-03-06 18:51:52[0m | [1mINFO    [0m | [36mls_test_get_spec.py[0m:[36mtest_spec[0m:[36m24[0m | [1m响应内容：{'code': 0, 'data': {'list': [{'id': 1463, 'code': '1778511090', 'name': '213规格', 'enableStr': '启用', 'remark': '这是说明\n', 'createTime': 1770974320000, 'creatorName': '郑宝宝', 'updateTime': 1770975873000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '151', 'updater': '151', 'createName': '郑宝宝', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1403, 'code': '009', 'name': '份', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1402, 'code': '1121006125', 'name': '同步数据', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1401, 'code': '1121006124', 'name': '0924规格', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1400, 'code': '1121006123', 'name': '测试21321', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1399, 'code': 'CF21006124', 'name': '测试123213', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1398, 'code': '001', 'name': '小份', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1397, 'code': '003', 'name': '大份', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1396, 'code': '002', 'name': '中份', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1395, 'code': '005', 'name': '双份', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}], 'total': 22}, 'msg': ''}[0m
+[32m2026-03-06 18:51:52[0m | [1mINFO    [0m | [36mls_test_get_spec.py[0m:[36mtest_spec[0m:[36m43[0m | [1m规格查询结束[0m
+PASSED
+test_case/ls_test_get_tag.py::TestTag::test_tag [32m2026-03-06 18:51:52[0m | [1mINFO    [0m | [36mls_test_get_tag.py[0m:[36mtest_tag[0m:[36m22[0m | [1m规格查询开始[0m
+[32m2026-03-06 18:51:52[0m | [1mINFO    [0m | [36mls_test_get_tag.py[0m:[36mtest_tag[0m:[36m24[0m | [1m响应内容：{'code': 0, 'data': {'list': [{'id': 437, 'parentId': 434, 'code': '03', 'name': '测试', 'enableStr': '可用', 'remark': '这是说明\n', 'createTime': 1770176880000, 'creatorName': '优海管理员', 'updateTime': 1771032993000, 'updaterName': '郑宝宝', 'parentName': None, 'type': 1, 'enable': 1, 'creator': '1', 'updater': '151'}, {'id': 436, 'parentId': 434, 'code': '02', 'name': '女士专属', 'enableStr': '可用', 'remark': '\\', 'createTime': 1770176880000, 'creatorName': '优海管理员', 'updateTime': 1770176880000, 'updaterName': '优海管理员', 'parentName': None, 'type': 1, 'enable': 1, 'creator': '1', 'updater': '1'}, {'id': 435, 'parentId': 434, 'code': '01', 'name': '无辣不欢', 'enableStr': '可用', 'remark': '\\', 'createTime': 1770176880000, 'creatorName': '优海管理员', 'updateTime': 1770176880000, 'updaterName': '优海管理员', 'parentName': None, 'type': 1, 'enable': 1, 'creator': '1', 'updater': '1'}], 'total': 3}, 'msg': ''}[0m
+[32m2026-03-06 18:51:52[0m | [1mINFO    [0m | [36mls_test_get_tag.py[0m:[36mtest_tag[0m:[36m43[0m | [1m标签查询结束[0m
+PASSED
+test_case/test_api_login.py::TestLogin::test_login[case1_\u6b63\u5411\u767b\u5f55_\u6b63\u786e\u8d26\u53f7\u5bc6\u7801-case_data0] [32m2026-03-06 18:51:52[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m15[0m | [1m开始登录测试[0m
+[32m2026-03-06 18:51:52[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m24[0m | [1m响应内容：{'code': 0, 'data': {'userId': 151, 'accessToken': 'bfecb8b0a19045a49a2c75614d5798a2', 'refreshToken': '745565f1f43d423895e3b5d23f6bf95f', 'expiresTime': 1772808712321}, 'msg': ''}[0m
+[32m2026-03-06 18:51:52[0m | [32m[1mSUCCESS [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m28[0m | [32m[1m登录成功，获取到token：bfecb8b0a19045a49a2c75614d5798a2[0m
+[32m2026-03-06 18:51:52[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m38[0m | [1m登录测试结束[0m
+PASSED
+test_case/test_api_login.py::TestLogin::test_login[case2_\u5f02\u5e38\u767b\u5f55_\u5bc6\u7801\u9519\u8bef-case_data1] [32m2026-03-06 18:51:52[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m15[0m | [1m开始登录测试[0m
+[32m2026-03-06 18:51:52[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m24[0m | [1m响应内容：{'code': 1002000000, 'data': None, 'msg': '登录失败，账号密码不正确'}[0m
+[32m2026-03-06 18:51:52[0m | [31m[1mERROR   [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m32[0m | [31m[1m断言失败：[case2_异常登录_密码错误] 断言失败：预期msg为空字符串，实际msg="登录失败，账号密码不正确"
+assert '登录失败，账号密码不正确' == ''
+  + 登录失败，账号密码不正确[0m
+[32m2026-03-06 18:51:52[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m38[0m | [1m登录测试结束[0m
+FAILED
+test_case/test_api_login.py::TestLogin::test_login[case3_\u5f02\u5e38\u767b\u5f55_\u8d26\u53f7\u4e0d\u5b58\u5728-case_data2] [32m2026-03-06 18:51:52[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m15[0m | [1m开始登录测试[0m
+[32m2026-03-06 18:51:53[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m24[0m | [1m响应内容：{'code': 1002000000, 'data': None, 'msg': '登录失败，账号密码不正确'}[0m
+[32m2026-03-06 18:51:53[0m | [31m[1mERROR   [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m32[0m | [31m[1m断言失败：[case3_异常登录_账号不存在] 断言失败：预期msg为空字符串，实际msg="登录失败，账号密码不正确"
+assert '登录失败，账号密码不正确' == ''
+  + 登录失败，账号密码不正确[0m
+[32m2026-03-06 18:51:53[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m38[0m | [1m登录测试结束[0m
+FAILED
+test_case/test_api_login.py::TestLogin::test_login[case4_\u5f02\u5e38\u767b\u5f55_\u8d26\u53f7\u4e3a\u7a7a-case_data3] [32m2026-03-06 18:51:53[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m15[0m | [1m开始登录测试[0m
+[32m2026-03-06 18:51:53[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m24[0m | [1m响应内容：{'code': 400, 'data': None, 'msg': '请求参数不正确:登录账号不能为空'}[0m
+[32m2026-03-06 18:51:53[0m | [31m[1mERROR   [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m32[0m | [31m[1m断言失败：[case4_异常登录_账号为空] 断言失败：预期msg为空字符串，实际msg="请求参数不正确:登录账号不能为空"
+assert '请求参数不正确:登录账号不能为空' == ''
+  + 请求参数不正确:登录账号不能为空[0m
+[32m2026-03-06 18:51:53[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m38[0m | [1m登录测试结束[0m
+FAILED
+
+================================== FAILURES ===================================
+_ TestLogin.test_login[case2_\u5f02\u5e38\u767b\u5f55_\u5bc6\u7801\u9519\u8bef-case_data1] _
+
+self = <test_api_login.TestLogin object at 0x000001D24C58A850>
+case_name = 'case2_异常登录_密码错误'
+case_data = {'input': {'password': '654321', 'rememberMe': True, 'tenantName': '优海源码', 'username': '13335397327'}}
+
+    @pytest.mark.parametrize("case_name, case_data", login_data.items())
+    def test_login(self, case_name, case_data):
+        logger.info('开始登录测试')
+        self.url = 'http://jwzt.jiwusiwei.com/admin-api/system/auth/login'
+        self.headers = {
+            "Content-Type": "application/json",
+            "Accept": "application/json, */*"
+        }
+        try:
+    
+            res = requests.post(url=self.url, headers=self.headers, json=case_data['input'], timeout=10)
+            logger.info(f'响应内容：{res.json()}')
+            # assert res.json().get('msg') == '',  f'断言不通过'
+>           assert res.json().get('msg') == '', \
+                f'[{case_name}] 断言失败：预期msg为空字符串，实际msg="{res.json().get("msg")}"'
+E               AssertionError: [case2_异常登录_密码错误] 断言失败：预期msg为空字符串，实际msg="登录失败，账号密码不正确"
+E               assert '登录失败，账号密码不正确' == ''
+E                 + 登录失败，账号密码不正确
+
+test_case\test_api_login.py:26: AssertionError
+_ TestLogin.test_login[case3_\u5f02\u5e38\u767b\u5f55_\u8d26\u53f7\u4e0d\u5b58\u5728-case_data2] _
+
+self = <test_api_login.TestLogin object at 0x000001D24C5F5350>
+case_name = 'case3_异常登录_账号不存在'
+case_data = {'input': {'password': '123456', 'rememberMe': True, 'tenantName': '优海源码', 'username': '13800000000'}}
+
+    @pytest.mark.parametrize("case_name, case_data", login_data.items())
+    def test_login(self, case_name, case_data):
+        logger.info('开始登录测试')
+        self.url = 'http://jwzt.jiwusiwei.com/admin-api/system/auth/login'
+        self.headers = {
+            "Content-Type": "application/json",
+            "Accept": "application/json, */*"
+        }
+        try:
+    
+            res = requests.post(url=self.url, headers=self.headers, json=case_data['input'], timeout=10)
+            logger.info(f'响应内容：{res.json()}')
+            # assert res.json().get('msg') == '',  f'断言不通过'
+>           assert res.json().get('msg') == '', \
+                f'[{case_name}] 断言失败：预期msg为空字符串，实际msg="{res.json().get("msg")}"'
+E               AssertionError: [case3_异常登录_账号不存在] 断言失败：预期msg为空字符串，实际msg="登录失败，账号密码不正确"
+E               assert '登录失败，账号密码不正确' == ''
+E                 + 登录失败，账号密码不正确
+
+test_case\test_api_login.py:26: AssertionError
+_ TestLogin.test_login[case4_\u5f02\u5e38\u767b\u5f55_\u8d26\u53f7\u4e3a\u7a7a-case_data3] _
+
+self = <test_api_login.TestLogin object at 0x000001D24C5F55B0>
+case_name = 'case4_异常登录_账号为空'
+case_data = {'input': {'password': '123456', 'rememberMe': True, 'tenantName': '优海源码', 'username': ''}}
+
+    @pytest.mark.parametrize("case_name, case_data", login_data.items())
+    def test_login(self, case_name, case_data):
+        logger.info('开始登录测试')
+        self.url = 'http://jwzt.jiwusiwei.com/admin-api/system/auth/login'
+        self.headers = {
+            "Content-Type": "application/json",
+            "Accept": "application/json, */*"
+        }
+        try:
+    
+            res = requests.post(url=self.url, headers=self.headers, json=case_data['input'], timeout=10)
+            logger.info(f'响应内容：{res.json()}')
+            # assert res.json().get('msg') == '',  f'断言不通过'
+>           assert res.json().get('msg') == '', \
+                f'[{case_name}] 断言失败：预期msg为空字符串，实际msg="{res.json().get("msg")}"'
+E               AssertionError: [case4_异常登录_账号为空] 断言失败：预期msg为空字符串，实际msg="请求参数不正确:登录账号不能为空"
+E               assert '请求参数不正确:登录账号不能为空' == ''
+E                 + 请求参数不正确:登录账号不能为空
+
+test_case\test_api_login.py:26: AssertionError
+============================== warnings summary ===============================
+test_case/test_api_login.py::TestLogin::test_login[case1_\u6b63\u5411\u767b\u5f55_\u6b63\u786e\u8d26\u53f7\u5bc6\u7801-case_data0]
+  D:\Python313\Lib\site-packages\_pytest\python.py:198: PytestReturnNotNoneWarning: Expected None, but test_case/test_api_login.py::TestLogin::test_login[case1_\u6b63\u5411\u767b\u5f55_\u6b63\u786e\u8d26\u53f7\u5bc6\u7801-case_data0] returned 'bfecb8b0a19045a49a2c75614d5798a2', which will be an error in a future version of pytest.  Did you mean to use `assert` instead of `return`?
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED test_case/test_api_login.py::TestLogin::test_login[case2_\u5f02\u5e38\u767b\u5f55_\u5bc6\u7801\u9519\u8bef-case_data1]
+FAILED test_case/test_api_login.py::TestLogin::test_login[case3_\u5f02\u5e38\u767b\u5f55_\u8d26\u53f7\u4e0d\u5b58\u5728-case_data2]
+FAILED test_case/test_api_login.py::TestLogin::test_login[case4_\u5f02\u5e38\u767b\u5f55_\u8d26\u53f7\u4e3a\u7a7a-case_data3]
+=================== 3 failed, 6 passed, 1 warning in 1.86s ====================
+
+2026-03-06 18:51:53 | INFO     | run1.py:<module>:33 | ===== 所有用例执行结束 =====
+2026-03-06 18:51:53 | WARNING  | run1.py:<module>:44 | ⚠️ 缓存无Allure数据，尝试备用方案生成...
+2026-03-06 18:53:24 | INFO     | run1.py:<module>:8 | ===== 开始执行所有用例 =====
+2026-03-06 18:53:26 | INFO     | run1.py:<module>:29 | Pytest执行日志：
+============================= test session starts =============================
+platform win32 -- Python 3.13.5, pytest-7.3.1, pluggy-1.6.0 -- D:\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Code\api_outo
+configfile: pytest.ini
+collecting ... collected 9 items
+
+test_case/ls_test_dept.py::TestDept::test_dept 【前置】登录成功，获取token： 9e8b83acea ...
+[32m2026-03-06 18:53:24[0m | [1mINFO    [0m | [36mls_test_dept.py[0m:[36mtest_dept[0m:[36m23[0m | [1m出品部门查询开始[0m
+[32m2026-03-06 18:53:25[0m | [1mINFO    [0m | [36mls_test_dept.py[0m:[36mtest_dept[0m:[36m25[0m | [1m响应内容：{'code': 0, 'data': {'list': [{'id': 435, 'level': 1, 'parentId': 0, 'code': '098071', 'name': '226部门', 'parentName': None, 'brandName': 'CM', 'mnemonic': '226bm', 'createTime': 1772072979000, 'updateTime': 1772072979000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 434, 'level': 1, 'parentId': 0, 'code': '005', 'name': '213出品部门', 'parentName': None, 'brandName': 'CM', 'mnemonic': '213CPBM', 'createTime': 1770974575000, 'updateTime': 1770974575000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 433, 'level': 1, 'parentId': 0, 'code': '002', 'name': '出门部门1', 'parentName': None, 'brandName': 'CM', 'mnemonic': 'CMBM1', 'createTime': 1770974510000, 'updateTime': 1770974510000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 432, 'level': 1, 'parentId': 0, 'code': '6210', 'name': '部门名称279778', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf351622', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 431, 'level': 1, 'parentId': 0, 'code': '1941', 'name': '部门名称245499', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf867770', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 430, 'level': 1, 'parentId': 0, 'code': '3501', 'name': '部门名称100599', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf572841', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 429, 'level': 1, 'parentId': 0, 'code': '3123', 'name': '部门名称897048', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf847402', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 428, 'level': 1, 'parentId': 0, 'code': '2667', 'name': '部门名称751531', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf77062', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 427, 'level': 1, 'parentId': 0, 'code': '6762', 'name': '部门名称220819', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf336500', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 426, 'level': 1, 'parentId': 0, 'code': '962', 'name': '部门名称542275', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf584133', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}], 'total': 172}, 'msg': ''}[0m
+[32m2026-03-06 18:53:25[0m | [1mINFO    [0m | [36mls_test_dept.py[0m:[36mtest_dept[0m:[36m37[0m | [1m出品部门查询结束[0m
+PASSED
+test_case/ls_test_get_allergen.py::TestAllergen::test_allergen [32m2026-03-06 18:53:25[0m | [1mINFO    [0m | [36mls_test_get_allergen.py[0m:[36mtest_allergen[0m:[36m21[0m | [1m过敏原查询开始[0m
+[32m2026-03-06 18:53:25[0m | [1mINFO    [0m | [36mls_test_get_allergen.py[0m:[36mtest_allergen[0m:[36m23[0m | [1m响应内容：{'code': 0, 'data': {'list': [{'id': 166, 'parentId': 163, 'parentName': None, 'code': '099187', 'name': '香菜过敏', 'enable': 1, 'remark': None, 'createTime': 1770975046000, 'creatorName': '郑宝宝', 'updateTime': 1770975046000, 'updaterName': '郑宝宝', 'createName': '郑宝宝', 'updateName': '郑宝宝', 'creator': '151', 'updater': '151'}, {'id': 165, 'parentId': 162, 'parentName': None, 'code': '099186', 'name': '海鲜过敏', 'enable': 1, 'remark': None, 'createTime': 1770975035000, 'creatorName': '郑宝宝', 'updateTime': 1770975035000, 'updaterName': '郑宝宝', 'createName': '郑宝宝', 'updateName': '郑宝宝', 'creator': '151', 'updater': '151'}, {'id': 164, 'parentId': 162, 'parentName': None, 'code': '099185', 'name': '鸡蛋过敏', 'enable': 1, 'remark': '这是鸡蛋孤傲吗', 'createTime': 1770975022000, 'creatorName': '郑宝宝', 'updateTime': 1770975022000, 'updaterName': '郑宝宝', 'createName': '郑宝宝', 'updateName': '郑宝宝', 'creator': '151', 'updater': '151'}], 'total': 3}, 'msg': ''}[0m
+[32m2026-03-06 18:53:25[0m | [1mINFO    [0m | [36mls_test_get_allergen.py[0m:[36mtest_allergen[0m:[36m42[0m | [1m过敏原查询结束[0m
+PASSED
+test_case/ls_test_get_brand.py::TestBrand::test_brands [32m2026-03-06 18:53:25[0m | [1mINFO    [0m | [36mls_test_get_brand.py[0m:[36mtest_brands[0m:[36m21[0m | [1m品牌查询开始[0m
+[32m2026-03-06 18:53:25[0m | [1mINFO    [0m | [36mls_test_get_brand.py[0m:[36mtest_brands[0m:[36m23[0m | [1m响应内容：{'code': 0, 'data': {'list': [{'id': 1841, 'code': '01', 'brandName': '默认品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1750909074000, 'creatorName': '乔乔', 'updateTime': 1750909074000, 'updaterName': '郑宝宝', 'brandId': '99', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1842, 'code': '09', 'brandName': 'CM', 'enableStr': '启用', 'remark': None, 'createTime': 1750922421000, 'creatorName': '乔乔', 'updateTime': 1750923208000, 'updaterName': '郑宝宝', 'brandId': '39', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1843, 'code': '10', 'brandName': '新增品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1758700243000, 'creatorName': '乔乔', 'updateTime': 1758700243000, 'updaterName': '郑宝宝', 'brandId': '163', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1844, 'code': '11', 'brandName': 'h      @#￥%%…………%……&', 'enableStr': '启用', 'remark': None, 'createTime': 1758707439000, 'creatorName': '乔乔', 'updateTime': 1758709169000, 'updaterName': '郑宝宝', 'brandId': '310', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1845, 'code': '12', 'brandName': '1009品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1759975266000, 'creatorName': '乔乔', 'updateTime': 1759975266000, 'updaterName': '郑宝宝', 'brandId': '309', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1846, 'code': '970119082', 'brandName': '1226品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1766737135000, 'creatorName': '乔乔', 'updateTime': 1766737135000, 'updaterName': '郑宝宝', 'brandId': '316', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1847, 'code': '970119083', 'brandName': '固定品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1766737290000, 'creatorName': '乔乔', 'updateTime': 1766737290000, 'updaterName': '郑宝宝', 'brandId': '317', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1848, 'code': '970119084', 'brandName': '1230品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1767075230000, 'creatorName': '乔乔', 'updateTime': 1767075230000, 'updaterName': '郑宝宝', 'brandId': '318', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1849, 'code': '970119085', 'brandName': '1230品牌11-11', 'enableStr': '启用', 'remark': None, 'createTime': 1767075375000, 'creatorName': '乔乔', 'updateTime': 1767075385000, 'updaterName': '郑宝宝', 'brandId': '319', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1850, 'code': '970119086', 'brandName': '130品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1769760700000, 'creatorName': '乔乔', 'updateTime': 1769760700000, 'updaterName': '郑宝宝', 'brandId': '323', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}], 'total': 286}, 'msg': ''}[0m
+[32m2026-03-06 18:53:25[0m | [1mINFO    [0m | [36mls_test_get_brand.py[0m:[36mtest_brands[0m:[36m42[0m | [1m品牌查询结束[0m
+PASSED
+test_case/ls_test_get_spec.py::TestSpec::test_spec [32m2026-03-06 18:53:25[0m | [1mINFO    [0m | [36mls_test_get_spec.py[0m:[36mtest_spec[0m:[36m22[0m | [1m规格查询开始[0m
+[32m2026-03-06 18:53:25[0m | [1mINFO    [0m | [36mls_test_get_spec.py[0m:[36mtest_spec[0m:[36m24[0m | [1m响应内容：{'code': 0, 'data': {'list': [{'id': 1463, 'code': '1778511090', 'name': '213规格', 'enableStr': '启用', 'remark': '这是说明\n', 'createTime': 1770974320000, 'creatorName': '郑宝宝', 'updateTime': 1770975873000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '151', 'updater': '151', 'createName': '郑宝宝', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1403, 'code': '009', 'name': '份', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1402, 'code': '1121006125', 'name': '同步数据', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1401, 'code': '1121006124', 'name': '0924规格', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1400, 'code': '1121006123', 'name': '测试21321', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1399, 'code': 'CF21006124', 'name': '测试123213', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1398, 'code': '001', 'name': '小份', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1397, 'code': '003', 'name': '大份', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1396, 'code': '002', 'name': '中份', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1395, 'code': '005', 'name': '双份', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}], 'total': 22}, 'msg': ''}[0m
+[32m2026-03-06 18:53:25[0m | [1mINFO    [0m | [36mls_test_get_spec.py[0m:[36mtest_spec[0m:[36m43[0m | [1m规格查询结束[0m
+PASSED
+test_case/ls_test_get_tag.py::TestTag::test_tag [32m2026-03-06 18:53:25[0m | [1mINFO    [0m | [36mls_test_get_tag.py[0m:[36mtest_tag[0m:[36m22[0m | [1m规格查询开始[0m
+[32m2026-03-06 18:53:25[0m | [1mINFO    [0m | [36mls_test_get_tag.py[0m:[36mtest_tag[0m:[36m24[0m | [1m响应内容：{'code': 0, 'data': {'list': [{'id': 437, 'parentId': 434, 'code': '03', 'name': '测试', 'enableStr': '可用', 'remark': '这是说明\n', 'createTime': 1770176880000, 'creatorName': '优海管理员', 'updateTime': 1771032993000, 'updaterName': '郑宝宝', 'parentName': None, 'type': 1, 'enable': 1, 'creator': '1', 'updater': '151'}, {'id': 436, 'parentId': 434, 'code': '02', 'name': '女士专属', 'enableStr': '可用', 'remark': '\\', 'createTime': 1770176880000, 'creatorName': '优海管理员', 'updateTime': 1770176880000, 'updaterName': '优海管理员', 'parentName': None, 'type': 1, 'enable': 1, 'creator': '1', 'updater': '1'}, {'id': 435, 'parentId': 434, 'code': '01', 'name': '无辣不欢', 'enableStr': '可用', 'remark': '\\', 'createTime': 1770176880000, 'creatorName': '优海管理员', 'updateTime': 1770176880000, 'updaterName': '优海管理员', 'parentName': None, 'type': 1, 'enable': 1, 'creator': '1', 'updater': '1'}], 'total': 3}, 'msg': ''}[0m
+[32m2026-03-06 18:53:25[0m | [1mINFO    [0m | [36mls_test_get_tag.py[0m:[36mtest_tag[0m:[36m43[0m | [1m标签查询结束[0m
+PASSED
+test_case/test_api_login.py::TestLogin::test_login[case1_\u6b63\u5411\u767b\u5f55_\u6b63\u786e\u8d26\u53f7\u5bc6\u7801-case_data0] [32m2026-03-06 18:53:25[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m15[0m | [1m开始登录测试[0m
+[32m2026-03-06 18:53:26[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m24[0m | [1m响应内容：{'code': 0, 'data': {'userId': 151, 'accessToken': 'c9889a304b63407fb14f10ad26e57c66', 'refreshToken': '0bdf6387c12e4ea48fb9a10790a70bb5', 'expiresTime': 1772808805650}, 'msg': ''}[0m
+[32m2026-03-06 18:53:26[0m | [32m[1mSUCCESS [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m28[0m | [32m[1m登录成功，获取到token：c9889a304b63407fb14f10ad26e57c66[0m
+[32m2026-03-06 18:53:26[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m38[0m | [1m登录测试结束[0m
+PASSED
+test_case/test_api_login.py::TestLogin::test_login[case2_\u5f02\u5e38\u767b\u5f55_\u5bc6\u7801\u9519\u8bef-case_data1] [32m2026-03-06 18:53:26[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m15[0m | [1m开始登录测试[0m
+[32m2026-03-06 18:53:26[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m24[0m | [1m响应内容：{'code': 1002000000, 'data': None, 'msg': '登录失败，账号密码不正确'}[0m
+[32m2026-03-06 18:53:26[0m | [31m[1mERROR   [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m32[0m | [31m[1m断言失败：[case2_异常登录_密码错误] 断言失败：预期msg为空字符串，实际msg="登录失败，账号密码不正确"
+assert '登录失败，账号密码不正确' == ''
+  + 登录失败，账号密码不正确[0m
+[32m2026-03-06 18:53:26[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m38[0m | [1m登录测试结束[0m
+FAILED
+test_case/test_api_login.py::TestLogin::test_login[case3_\u5f02\u5e38\u767b\u5f55_\u8d26\u53f7\u4e0d\u5b58\u5728-case_data2] [32m2026-03-06 18:53:26[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m15[0m | [1m开始登录测试[0m
+[32m2026-03-06 18:53:26[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m24[0m | [1m响应内容：{'code': 1002000000, 'data': None, 'msg': '登录失败，账号密码不正确'}[0m
+[32m2026-03-06 18:53:26[0m | [31m[1mERROR   [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m32[0m | [31m[1m断言失败：[case3_异常登录_账号不存在] 断言失败：预期msg为空字符串，实际msg="登录失败，账号密码不正确"
+assert '登录失败，账号密码不正确' == ''
+  + 登录失败，账号密码不正确[0m
+[32m2026-03-06 18:53:26[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m38[0m | [1m登录测试结束[0m
+FAILED
+test_case/test_api_login.py::TestLogin::test_login[case4_\u5f02\u5e38\u767b\u5f55_\u8d26\u53f7\u4e3a\u7a7a-case_data3] [32m2026-03-06 18:53:26[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m15[0m | [1m开始登录测试[0m
+[32m2026-03-06 18:53:26[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m24[0m | [1m响应内容：{'code': 400, 'data': None, 'msg': '请求参数不正确:账号格式为数字以及字母'}[0m
+[32m2026-03-06 18:53:26[0m | [31m[1mERROR   [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m32[0m | [31m[1m断言失败：[case4_异常登录_账号为空] 断言失败：预期msg为空字符串，实际msg="请求参数不正确:账号格式为数字以及字母"
+assert '请求参数不正确:账号格式为数字以及字母' == ''
+  + 请求参数不正确:账号格式为数字以及字母[0m
+[32m2026-03-06 18:53:26[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m38[0m | [1m登录测试结束[0m
+FAILED
+
+================================== FAILURES ===================================
+_ TestLogin.test_login[case2_\u5f02\u5e38\u767b\u5f55_\u5bc6\u7801\u9519\u8bef-case_data1] _
+
+self = <test_api_login.TestLogin object at 0x0000026F90CDA850>
+case_name = 'case2_异常登录_密码错误'
+case_data = {'input': {'password': '654321', 'rememberMe': True, 'tenantName': '优海源码', 'username': '13335397327'}}
+
+    @pytest.mark.parametrize("case_name, case_data", login_data.items())
+    def test_login(self, case_name, case_data):
+        logger.info('开始登录测试')
+        self.url = 'http://jwzt.jiwusiwei.com/admin-api/system/auth/login'
+        self.headers = {
+            "Content-Type": "application/json",
+            "Accept": "application/json, */*"
+        }
+        try:
+    
+            res = requests.post(url=self.url, headers=self.headers, json=case_data['input'], timeout=10)
+            logger.info(f'响应内容：{res.json()}')
+            # assert res.json().get('msg') == '',  f'断言不通过'
+>           assert res.json().get('msg') == '', \
+                f'[{case_name}] 断言失败：预期msg为空字符串，实际msg="{res.json().get("msg")}"'
+E               AssertionError: [case2_异常登录_密码错误] 断言失败：预期msg为空字符串，实际msg="登录失败，账号密码不正确"
+E               assert '登录失败，账号密码不正确' == ''
+E                 + 登录失败，账号密码不正确
+
+test_case\test_api_login.py:26: AssertionError
+_ TestLogin.test_login[case3_\u5f02\u5e38\u767b\u5f55_\u8d26\u53f7\u4e0d\u5b58\u5728-case_data2] _
+
+self = <test_api_login.TestLogin object at 0x0000026F90D45350>
+case_name = 'case3_异常登录_账号不存在'
+case_data = {'input': {'password': '123456', 'rememberMe': True, 'tenantName': '优海源码', 'username': '13800000000'}}
+
+    @pytest.mark.parametrize("case_name, case_data", login_data.items())
+    def test_login(self, case_name, case_data):
+        logger.info('开始登录测试')
+        self.url = 'http://jwzt.jiwusiwei.com/admin-api/system/auth/login'
+        self.headers = {
+            "Content-Type": "application/json",
+            "Accept": "application/json, */*"
+        }
+        try:
+    
+            res = requests.post(url=self.url, headers=self.headers, json=case_data['input'], timeout=10)
+            logger.info(f'响应内容：{res.json()}')
+            # assert res.json().get('msg') == '',  f'断言不通过'
+>           assert res.json().get('msg') == '', \
+                f'[{case_name}] 断言失败：预期msg为空字符串，实际msg="{res.json().get("msg")}"'
+E               AssertionError: [case3_异常登录_账号不存在] 断言失败：预期msg为空字符串，实际msg="登录失败，账号密码不正确"
+E               assert '登录失败，账号密码不正确' == ''
+E                 + 登录失败，账号密码不正确
+
+test_case\test_api_login.py:26: AssertionError
+_ TestLogin.test_login[case4_\u5f02\u5e38\u767b\u5f55_\u8d26\u53f7\u4e3a\u7a7a-case_data3] _
+
+self = <test_api_login.TestLogin object at 0x0000026F90D455B0>
+case_name = 'case4_异常登录_账号为空'
+case_data = {'input': {'password': '123456', 'rememberMe': True, 'tenantName': '优海源码', 'username': ''}}
+
+    @pytest.mark.parametrize("case_name, case_data", login_data.items())
+    def test_login(self, case_name, case_data):
+        logger.info('开始登录测试')
+        self.url = 'http://jwzt.jiwusiwei.com/admin-api/system/auth/login'
+        self.headers = {
+            "Content-Type": "application/json",
+            "Accept": "application/json, */*"
+        }
+        try:
+    
+            res = requests.post(url=self.url, headers=self.headers, json=case_data['input'], timeout=10)
+            logger.info(f'响应内容：{res.json()}')
+            # assert res.json().get('msg') == '',  f'断言不通过'
+>           assert res.json().get('msg') == '', \
+                f'[{case_name}] 断言失败：预期msg为空字符串，实际msg="{res.json().get("msg")}"'
+E               AssertionError: [case4_异常登录_账号为空] 断言失败：预期msg为空字符串，实际msg="请求参数不正确:账号格式为数字以及字母"
+E               assert '请求参数不正确:账号格式为数字以及字母' == ''
+E                 + 请求参数不正确:账号格式为数字以及字母
+
+test_case\test_api_login.py:26: AssertionError
+============================== warnings summary ===============================
+test_case/test_api_login.py::TestLogin::test_login[case1_\u6b63\u5411\u767b\u5f55_\u6b63\u786e\u8d26\u53f7\u5bc6\u7801-case_data0]
+  D:\Python313\Lib\site-packages\_pytest\python.py:198: PytestReturnNotNoneWarning: Expected None, but test_case/test_api_login.py::TestLogin::test_login[case1_\u6b63\u5411\u767b\u5f55_\u6b63\u786e\u8d26\u53f7\u5bc6\u7801-case_data0] returned 'c9889a304b63407fb14f10ad26e57c66', which will be an error in a future version of pytest.  Did you mean to use `assert` instead of `return`?
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED test_case/test_api_login.py::TestLogin::test_login[case2_\u5f02\u5e38\u767b\u5f55_\u5bc6\u7801\u9519\u8bef-case_data1]
+FAILED test_case/test_api_login.py::TestLogin::test_login[case3_\u5f02\u5e38\u767b\u5f55_\u8d26\u53f7\u4e0d\u5b58\u5728-case_data2]
+FAILED test_case/test_api_login.py::TestLogin::test_login[case4_\u5f02\u5e38\u767b\u5f55_\u8d26\u53f7\u4e3a\u7a7a-case_data3]
+=================== 3 failed, 6 passed, 1 warning in 2.12s ====================
+
+2026-03-06 18:53:26 | INFO     | run1.py:<module>:33 | ===== 所有用例执行结束 =====
+2026-03-06 18:53:26 | WARNING  | run1.py:<module>:44 | ⚠️ 缓存无Allure数据，尝试备用方案生成...
+2026-03-06 18:53:27 | INFO     | run1.py:<module>:61 | 备用方案执行日志：
+
+2026-03-06 18:53:27 | WARNING  | run1.py:<module>:63 | 备用方案警告：
+D:\Python313\Lib\site-packages\_pytest\config\__init__.py:328: PluggyTeardownRaisedWarning: A plugin raised an exception during an old-style hookwrapper teardown.
+Plugin: helpconfig, Hook: pytest_cmdline_parse
+UsageError: usage: pytest [options] [file_or_dir] [file_or_dir] [...]
+pytest: error: unrecognized arguments: --alluredir C:\Users\郑宝\AppData\Local\Temp\tmpamtvgr5f
+  inifile: \\.\nul
+  rootdir: \\.\nul
+For more information see https://pluggy.readthedocs.io/en/stable/api_reference.html#pluggy.PluggyTeardownRaisedWarning
+  config = pluginmanager.hook.pytest_cmdline_parse(
+ERROR: usage: pytest [options] [file_or_dir] [file_or_dir] [...]
+pytest: error: unrecognized arguments: --alluredir C:\Users\郑宝\AppData\Local\Temp\tmpamtvgr5f
+  inifile: \\.\nul
+  rootdir: \\.\nul
+
+
+2026-03-06 18:58:45 | INFO     | run1.py:<module>:16 | ===== 开始执行所有用例 =====
+2026-03-06 18:58:47 | INFO     | run1.py:<module>:30 | Pytest执行日志：
+============================= test session starts =============================
+platform win32 -- Python 3.13.5, pytest-7.2.0, pluggy-1.6.0 -- D:\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Code\api_outo, configfile: pytest.ini
+plugins: allure-pytest-2.12.0
+collecting ... collected 9 items
+
+test_case/ls_test_dept.py::TestDept::test_dept 【前置】登录成功，获取token： b22da31d59 ...
+[32m2026-03-06 18:58:46[0m | [1mINFO    [0m | [36mls_test_dept.py[0m:[36mtest_dept[0m:[36m23[0m | [1m出品部门查询开始[0m
+[32m2026-03-06 18:58:46[0m | [1mINFO    [0m | [36mls_test_dept.py[0m:[36mtest_dept[0m:[36m25[0m | [1m响应内容：{'code': 0, 'data': {'list': [{'id': 435, 'level': 1, 'parentId': 0, 'code': '098071', 'name': '226部门', 'parentName': None, 'brandName': 'CM', 'mnemonic': '226bm', 'createTime': 1772072979000, 'updateTime': 1772072979000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 434, 'level': 1, 'parentId': 0, 'code': '005', 'name': '213出品部门', 'parentName': None, 'brandName': 'CM', 'mnemonic': '213CPBM', 'createTime': 1770974575000, 'updateTime': 1770974575000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 433, 'level': 1, 'parentId': 0, 'code': '002', 'name': '出门部门1', 'parentName': None, 'brandName': 'CM', 'mnemonic': 'CMBM1', 'createTime': 1770974510000, 'updateTime': 1770974510000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 432, 'level': 1, 'parentId': 0, 'code': '6210', 'name': '部门名称279778', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf351622', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 431, 'level': 1, 'parentId': 0, 'code': '1941', 'name': '部门名称245499', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf867770', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 430, 'level': 1, 'parentId': 0, 'code': '3501', 'name': '部门名称100599', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf572841', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 429, 'level': 1, 'parentId': 0, 'code': '3123', 'name': '部门名称897048', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf847402', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 428, 'level': 1, 'parentId': 0, 'code': '2667', 'name': '部门名称751531', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf77062', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 427, 'level': 1, 'parentId': 0, 'code': '6762', 'name': '部门名称220819', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf336500', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 426, 'level': 1, 'parentId': 0, 'code': '962', 'name': '部门名称542275', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf584133', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}], 'total': 172}, 'msg': ''}[0m
+[32m2026-03-06 18:58:46[0m | [1mINFO    [0m | [36mls_test_dept.py[0m:[36mtest_dept[0m:[36m37[0m | [1m出品部门查询结束[0m
+PASSED
+test_case/ls_test_get_allergen.py::TestAllergen::test_allergen [32m2026-03-06 18:58:46[0m | [1mINFO    [0m | [36mls_test_get_allergen.py[0m:[36mtest_allergen[0m:[36m21[0m | [1m过敏原查询开始[0m
+[32m2026-03-06 18:58:46[0m | [1mINFO    [0m | [36mls_test_get_allergen.py[0m:[36mtest_allergen[0m:[36m23[0m | [1m响应内容：{'code': 0, 'data': {'list': [{'id': 166, 'parentId': 163, 'parentName': None, 'code': '099187', 'name': '香菜过敏', 'enable': 1, 'remark': None, 'createTime': 1770975046000, 'creatorName': '郑宝宝', 'updateTime': 1770975046000, 'updaterName': '郑宝宝', 'createName': '郑宝宝', 'updateName': '郑宝宝', 'creator': '151', 'updater': '151'}, {'id': 165, 'parentId': 162, 'parentName': None, 'code': '099186', 'name': '海鲜过敏', 'enable': 1, 'remark': None, 'createTime': 1770975035000, 'creatorName': '郑宝宝', 'updateTime': 1770975035000, 'updaterName': '郑宝宝', 'createName': '郑宝宝', 'updateName': '郑宝宝', 'creator': '151', 'updater': '151'}, {'id': 164, 'parentId': 162, 'parentName': None, 'code': '099185', 'name': '鸡蛋过敏', 'enable': 1, 'remark': '这是鸡蛋孤傲吗', 'createTime': 1770975022000, 'creatorName': '郑宝宝', 'updateTime': 1770975022000, 'updaterName': '郑宝宝', 'createName': '郑宝宝', 'updateName': '郑宝宝', 'creator': '151', 'updater': '151'}], 'total': 3}, 'msg': ''}[0m
+[32m2026-03-06 18:58:46[0m | [1mINFO    [0m | [36mls_test_get_allergen.py[0m:[36mtest_allergen[0m:[36m42[0m | [1m过敏原查询结束[0m
+PASSED
+test_case/ls_test_get_brand.py::TestBrand::test_brands [32m2026-03-06 18:58:46[0m | [1mINFO    [0m | [36mls_test_get_brand.py[0m:[36mtest_brands[0m:[36m21[0m | [1m品牌查询开始[0m
+[32m2026-03-06 18:58:46[0m | [1mINFO    [0m | [36mls_test_get_brand.py[0m:[36mtest_brands[0m:[36m23[0m | [1m响应内容：{'code': 0, 'data': {'list': [{'id': 1841, 'code': '01', 'brandName': '默认品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1750909074000, 'creatorName': '乔乔', 'updateTime': 1750909074000, 'updaterName': '郑宝宝', 'brandId': '99', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1842, 'code': '09', 'brandName': 'CM', 'enableStr': '启用', 'remark': None, 'createTime': 1750922421000, 'creatorName': '乔乔', 'updateTime': 1750923208000, 'updaterName': '郑宝宝', 'brandId': '39', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1843, 'code': '10', 'brandName': '新增品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1758700243000, 'creatorName': '乔乔', 'updateTime': 1758700243000, 'updaterName': '郑宝宝', 'brandId': '163', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1844, 'code': '11', 'brandName': 'h      @#￥%%…………%……&', 'enableStr': '启用', 'remark': None, 'createTime': 1758707439000, 'creatorName': '乔乔', 'updateTime': 1758709169000, 'updaterName': '郑宝宝', 'brandId': '310', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1845, 'code': '12', 'brandName': '1009品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1759975266000, 'creatorName': '乔乔', 'updateTime': 1759975266000, 'updaterName': '郑宝宝', 'brandId': '309', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1846, 'code': '970119082', 'brandName': '1226品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1766737135000, 'creatorName': '乔乔', 'updateTime': 1766737135000, 'updaterName': '郑宝宝', 'brandId': '316', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1847, 'code': '970119083', 'brandName': '固定品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1766737290000, 'creatorName': '乔乔', 'updateTime': 1766737290000, 'updaterName': '郑宝宝', 'brandId': '317', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1848, 'code': '970119084', 'brandName': '1230品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1767075230000, 'creatorName': '乔乔', 'updateTime': 1767075230000, 'updaterName': '郑宝宝', 'brandId': '318', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1849, 'code': '970119085', 'brandName': '1230品牌11-11', 'enableStr': '启用', 'remark': None, 'createTime': 1767075375000, 'creatorName': '乔乔', 'updateTime': 1767075385000, 'updaterName': '郑宝宝', 'brandId': '319', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1850, 'code': '970119086', 'brandName': '130品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1769760700000, 'creatorName': '乔乔', 'updateTime': 1769760700000, 'updaterName': '郑宝宝', 'brandId': '323', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}], 'total': 286}, 'msg': ''}[0m
+[32m2026-03-06 18:58:46[0m | [1mINFO    [0m | [36mls_test_get_brand.py[0m:[36mtest_brands[0m:[36m42[0m | [1m品牌查询结束[0m
+PASSED
+test_case/ls_test_get_spec.py::TestSpec::test_spec [32m2026-03-06 18:58:46[0m | [1mINFO    [0m | [36mls_test_get_spec.py[0m:[36mtest_spec[0m:[36m22[0m | [1m规格查询开始[0m
+[32m2026-03-06 18:58:46[0m | [1mINFO    [0m | [36mls_test_get_spec.py[0m:[36mtest_spec[0m:[36m24[0m | [1m响应内容：{'code': 0, 'data': {'list': [{'id': 1463, 'code': '1778511090', 'name': '213规格', 'enableStr': '启用', 'remark': '这是说明\n', 'createTime': 1770974320000, 'creatorName': '郑宝宝', 'updateTime': 1770975873000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '151', 'updater': '151', 'createName': '郑宝宝', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1403, 'code': '009', 'name': '份', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1402, 'code': '1121006125', 'name': '同步数据', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1401, 'code': '1121006124', 'name': '0924规格', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1400, 'code': '1121006123', 'name': '测试21321', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1399, 'code': 'CF21006124', 'name': '测试123213', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1398, 'code': '001', 'name': '小份', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1397, 'code': '003', 'name': '大份', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1396, 'code': '002', 'name': '中份', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1395, 'code': '005', 'name': '双份', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}], 'total': 22}, 'msg': ''}[0m
+[32m2026-03-06 18:58:46[0m | [1mINFO    [0m | [36mls_test_get_spec.py[0m:[36mtest_spec[0m:[36m43[0m | [1m规格查询结束[0m
+PASSED
+test_case/ls_test_get_tag.py::TestTag::test_tag [32m2026-03-06 18:58:46[0m | [1mINFO    [0m | [36mls_test_get_tag.py[0m:[36mtest_tag[0m:[36m22[0m | [1m规格查询开始[0m
+[32m2026-03-06 18:58:47[0m | [1mINFO    [0m | [36mls_test_get_tag.py[0m:[36mtest_tag[0m:[36m24[0m | [1m响应内容：{'code': 0, 'data': {'list': [{'id': 437, 'parentId': 434, 'code': '03', 'name': '测试', 'enableStr': '可用', 'remark': '这是说明\n', 'createTime': 1770176880000, 'creatorName': '优海管理员', 'updateTime': 1771032993000, 'updaterName': '郑宝宝', 'parentName': None, 'type': 1, 'enable': 1, 'creator': '1', 'updater': '151'}, {'id': 436, 'parentId': 434, 'code': '02', 'name': '女士专属', 'enableStr': '可用', 'remark': '\\', 'createTime': 1770176880000, 'creatorName': '优海管理员', 'updateTime': 1770176880000, 'updaterName': '优海管理员', 'parentName': None, 'type': 1, 'enable': 1, 'creator': '1', 'updater': '1'}, {'id': 435, 'parentId': 434, 'code': '01', 'name': '无辣不欢', 'enableStr': '可用', 'remark': '\\', 'createTime': 1770176880000, 'creatorName': '优海管理员', 'updateTime': 1770176880000, 'updaterName': '优海管理员', 'parentName': None, 'type': 1, 'enable': 1, 'creator': '1', 'updater': '1'}], 'total': 3}, 'msg': ''}[0m
+[32m2026-03-06 18:58:47[0m | [1mINFO    [0m | [36mls_test_get_tag.py[0m:[36mtest_tag[0m:[36m43[0m | [1m标签查询结束[0m
+PASSED
+test_case/test_api_login.py::TestLogin::test_login[case1_\u6b63\u5411\u767b\u5f55_\u6b63\u786e\u8d26\u53f7\u5bc6\u7801-case_data0] [32m2026-03-06 18:58:47[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m15[0m | [1m开始登录测试[0m
+[32m2026-03-06 18:58:47[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m24[0m | [1m响应内容：{'code': 0, 'data': {'userId': 151, 'accessToken': 'dba4e817b5fc4830be0cb7d55dca4de3', 'refreshToken': 'c77fcf2e1b5444b39d59e7cd3e3b7236', 'expiresTime': 1772809126867}, 'msg': ''}[0m
+[32m2026-03-06 18:58:47[0m | [32m[1mSUCCESS [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m28[0m | [32m[1m登录成功，获取到token：dba4e817b5fc4830be0cb7d55dca4de3[0m
+[32m2026-03-06 18:58:47[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m38[0m | [1m登录测试结束[0m
+PASSED
+test_case/test_api_login.py::TestLogin::test_login[case2_\u5f02\u5e38\u767b\u5f55_\u5bc6\u7801\u9519\u8bef-case_data1] [32m2026-03-06 18:58:47[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m15[0m | [1m开始登录测试[0m
+[32m2026-03-06 18:58:47[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m24[0m | [1m响应内容：{'code': 1002000000, 'data': None, 'msg': '登录失败，账号密码不正确'}[0m
+[32m2026-03-06 18:58:47[0m | [31m[1mERROR   [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m32[0m | [31m[1m断言失败：[case2_异常登录_密码错误] 断言失败：预期msg为空字符串，实际msg="登录失败，账号密码不正确"
+assert '登录失败，账号密码不正确' == ''
+  + 登录失败，账号密码不正确[0m
+[32m2026-03-06 18:58:47[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m38[0m | [1m登录测试结束[0m
+FAILED
+test_case/test_api_login.py::TestLogin::test_login[case3_\u5f02\u5e38\u767b\u5f55_\u8d26\u53f7\u4e0d\u5b58\u5728-case_data2] [32m2026-03-06 18:58:47[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m15[0m | [1m开始登录测试[0m
+[32m2026-03-06 18:58:47[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m24[0m | [1m响应内容：{'code': 1002000000, 'data': None, 'msg': '登录失败，账号密码不正确'}[0m
+[32m2026-03-06 18:58:47[0m | [31m[1mERROR   [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m32[0m | [31m[1m断言失败：[case3_异常登录_账号不存在] 断言失败：预期msg为空字符串，实际msg="登录失败，账号密码不正确"
+assert '登录失败，账号密码不正确' == ''
+  + 登录失败，账号密码不正确[0m
+[32m2026-03-06 18:58:47[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m38[0m | [1m登录测试结束[0m
+FAILED
+test_case/test_api_login.py::TestLogin::test_login[case4_\u5f02\u5e38\u767b\u5f55_\u8d26\u53f7\u4e3a\u7a7a-case_data3] [32m2026-03-06 18:58:47[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m15[0m | [1m开始登录测试[0m
+[32m2026-03-06 18:58:47[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m24[0m | [1m响应内容：{'code': 400, 'data': None, 'msg': '请求参数不正确:登录账号不能为空'}[0m
+[32m2026-03-06 18:58:47[0m | [31m[1mERROR   [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m32[0m | [31m[1m断言失败：[case4_异常登录_账号为空] 断言失败：预期msg为空字符串，实际msg="请求参数不正确:登录账号不能为空"
+assert '请求参数不正确:登录账号不能为空' == ''
+  + 请求参数不正确:登录账号不能为空[0m
+[32m2026-03-06 18:58:47[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m38[0m | [1m登录测试结束[0m
+FAILED
+
+================================== FAILURES ===================================
+_ TestLogin.test_login[case2_\u5f02\u5e38\u767b\u5f55_\u5bc6\u7801\u9519\u8bef-case_data1] _
+
+self = <test_api_login.TestLogin object at 0x000002BCA96AB390>
+case_name = 'case2_异常登录_密码错误'
+case_data = {'input': {'password': '654321', 'rememberMe': True, 'tenantName': '优海源码', 'username': '13335397327'}}
+
+    @pytest.mark.parametrize("case_name, case_data", login_data.items())
+    def test_login(self, case_name, case_data):
+        logger.info('开始登录测试')
+        self.url = 'http://jwzt.jiwusiwei.com/admin-api/system/auth/login'
+        self.headers = {
+            "Content-Type": "application/json",
+            "Accept": "application/json, */*"
+        }
+        try:
+    
+            res = requests.post(url=self.url, headers=self.headers, json=case_data['input'], timeout=10)
+            logger.info(f'响应内容：{res.json()}')
+            # assert res.json().get('msg') == '',  f'断言不通过'
+>           assert res.json().get('msg') == '', \
+                f'[{case_name}] 断言失败：预期msg为空字符串，实际msg="{res.json().get("msg")}"'
+E               AssertionError: [case2_异常登录_密码错误] 断言失败：预期msg为空字符串，实际msg="登录失败，账号密码不正确"
+E               assert '登录失败，账号密码不正确' == ''
+E                 + 登录失败，账号密码不正确
+
+test_case\test_api_login.py:26: AssertionError
+_ TestLogin.test_login[case3_\u5f02\u5e38\u767b\u5f55_\u8d26\u53f7\u4e0d\u5b58\u5728-case_data2] _
+
+self = <test_api_login.TestLogin object at 0x000002BCA9756190>
+case_name = 'case3_异常登录_账号不存在'
+case_data = {'input': {'password': '123456', 'rememberMe': True, 'tenantName': '优海源码', 'username': '13800000000'}}
+
+    @pytest.mark.parametrize("case_name, case_data", login_data.items())
+    def test_login(self, case_name, case_data):
+        logger.info('开始登录测试')
+        self.url = 'http://jwzt.jiwusiwei.com/admin-api/system/auth/login'
+        self.headers = {
+            "Content-Type": "application/json",
+            "Accept": "application/json, */*"
+        }
+        try:
+    
+            res = requests.post(url=self.url, headers=self.headers, json=case_data['input'], timeout=10)
+            logger.info(f'响应内容：{res.json()}')
+            # assert res.json().get('msg') == '',  f'断言不通过'
+>           assert res.json().get('msg') == '', \
+                f'[{case_name}] 断言失败：预期msg为空字符串，实际msg="{res.json().get("msg")}"'
+E               AssertionError: [case3_异常登录_账号不存在] 断言失败：预期msg为空字符串，实际msg="登录失败，账号密码不正确"
+E               assert '登录失败，账号密码不正确' == ''
+E                 + 登录失败，账号密码不正确
+
+test_case\test_api_login.py:26: AssertionError
+_ TestLogin.test_login[case4_\u5f02\u5e38\u767b\u5f55_\u8d26\u53f7\u4e3a\u7a7a-case_data3] _
+
+self = <test_api_login.TestLogin object at 0x000002BCA9755F30>
+case_name = 'case4_异常登录_账号为空'
+case_data = {'input': {'password': '123456', 'rememberMe': True, 'tenantName': '优海源码', 'username': ''}}
+
+    @pytest.mark.parametrize("case_name, case_data", login_data.items())
+    def test_login(self, case_name, case_data):
+        logger.info('开始登录测试')
+        self.url = 'http://jwzt.jiwusiwei.com/admin-api/system/auth/login'
+        self.headers = {
+            "Content-Type": "application/json",
+            "Accept": "application/json, */*"
+        }
+        try:
+    
+            res = requests.post(url=self.url, headers=self.headers, json=case_data['input'], timeout=10)
+            logger.info(f'响应内容：{res.json()}')
+            # assert res.json().get('msg') == '',  f'断言不通过'
+>           assert res.json().get('msg') == '', \
+                f'[{case_name}] 断言失败：预期msg为空字符串，实际msg="{res.json().get("msg")}"'
+E               AssertionError: [case4_异常登录_账号为空] 断言失败：预期msg为空字符串，实际msg="请求参数不正确:登录账号不能为空"
+E               assert '请求参数不正确:登录账号不能为空' == ''
+E                 + 请求参数不正确:登录账号不能为空
+
+test_case\test_api_login.py:26: AssertionError
+============================== warnings summary ===============================
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:940
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:940
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:940
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:940
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:940
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:940
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:940
+  D:\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:940: DeprecationWarning: ast.Str is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    inlocs = ast.Compare(ast.Str(name.id), [ast.In()], [locs])
+
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:943
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:943
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:943
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:943
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:943
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:943
+  D:\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:943: DeprecationWarning: ast.Str is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    expr = ast.IfExp(test, self.display(name), ast.Str(name.id))
+
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:1053
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:1053
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:1053
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:1053
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:1053
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:1053
+  D:\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:1053: DeprecationWarning: ast.Str is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    syms.append(ast.Str(sym))
+
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:1055
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:1055
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:1055
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:1055
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:1055
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:1055
+  D:\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:1055: DeprecationWarning: ast.Str is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    expls.append(ast.Str(expl))
+
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:804: 48 warnings
+  D:\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:804: DeprecationWarning: ast.Str is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    keys = [ast.Str(key) for key in current.keys()]
+
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:916
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:916
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:916
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:916
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:916
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:916
+  D:\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:916: DeprecationWarning: ast.Str is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    template = ast.BinOp(assertmsg, ast.Add(), ast.Str(explanation))
+
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:928
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:928
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:928
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:928
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:928
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:928
+..\..\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:928
+  D:\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:928: DeprecationWarning: ast.NameConstant is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    clear = ast.Assign(variables, ast.NameConstant(None))
+
+test_case/test_api_login.py::TestLogin::test_login[case1_\u6b63\u5411\u767b\u5f55_\u6b63\u786e\u8d26\u53f7\u5bc6\u7801-case_data0]
+  D:\Python313\Lib\site-packages\_pytest\python.py:199: PytestReturnNotNoneWarning: Expected None, but test_case/test_api_login.py::TestLogin::test_login[case1_\u6b63\u5411\u767b\u5f55_\u6b63\u786e\u8d26\u53f7\u5bc6\u7801-case_data0] returned 'dba4e817b5fc4830be0cb7d55dca4de3', which will be an error in a future version of pytest.  Did you mean to use `assert` instead of `return`?
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+------- generated xml file: D:\Code\api_outo\reports\junit\results.xml --------
+=========================== short test summary info ===========================
+FAILED test_case/test_api_login.py::TestLogin::test_login[case2_\u5f02\u5e38\u767b\u5f55_\u5bc6\u7801\u9519\u8bef-case_data1]
+FAILED test_case/test_api_login.py::TestLogin::test_login[case3_\u5f02\u5e38\u767b\u5f55_\u8d26\u53f7\u4e0d\u5b58\u5728-case_data2]
+FAILED test_case/test_api_login.py::TestLogin::test_login[case4_\u5f02\u5e38\u767b\u5f55_\u8d26\u53f7\u4e3a\u7a7a-case_data3]
+================== 3 failed, 6 passed, 87 warnings in 1.90s ===================
+
+2026-03-06 18:58:47 | INFO     | run1.py:<module>:33 | ===== 所有用例执行结束 =====
+2026-03-06 19:02:15 | INFO     | run1.py:<module>:16 | ===== 开始执行所有用例 =====
+2026-03-06 19:02:16 | INFO     | run1.py:<module>:30 | Pytest执行日志：
+============================= test session starts =============================
+platform win32 -- Python 3.13.5, pytest-7.2.0, pluggy-1.6.0 -- D:\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Code\api_outo, configfile: pytest.ini
+plugins: allure-pytest-2.12.0
+collecting ... collected 0 items
+
+------- generated xml file: D:\Code\api_outo\reports\junit\results.xml --------
+============================ no tests ran in 0.05s ============================
+
+2026-03-06 19:02:16 | WARNING  | run1.py:<module>:32 | Pytest警告：
+ERROR: file or directory not found: #
+
+
+2026-03-06 19:02:16 | INFO     | run1.py:<module>:33 | ===== 所有用例执行结束 =====
+2026-03-06 19:03:27 | INFO     | run1.py:<module>:16 | ===== 开始执行所有用例 =====
+2026-03-06 19:03:30 | INFO     | run1.py:<module>:30 | Pytest执行日志：
+============================= test session starts =============================
+platform win32 -- Python 3.13.5, pytest-7.2.0, pluggy-1.6.0 -- D:\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Code\api_outo, configfile: pytest.ini
+plugins: allure-pytest-2.12.0
+collecting ... collected 9 items
+
+test_case/ls_test_dept.py::TestDept::test_dept 【前置】登录成功，获取token： e570010026 ...
+[32m2026-03-06 19:03:29[0m | [1mINFO    [0m | [36mls_test_dept.py[0m:[36mtest_dept[0m:[36m23[0m | [1m出品部门查询开始[0m
+[32m2026-03-06 19:03:29[0m | [1mINFO    [0m | [36mls_test_dept.py[0m:[36mtest_dept[0m:[36m25[0m | [1m响应内容：{'code': 0, 'data': {'list': [{'id': 435, 'level': 1, 'parentId': 0, 'code': '098071', 'name': '226部门', 'parentName': None, 'brandName': 'CM', 'mnemonic': '226bm', 'createTime': 1772072979000, 'updateTime': 1772072979000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 434, 'level': 1, 'parentId': 0, 'code': '005', 'name': '213出品部门', 'parentName': None, 'brandName': 'CM', 'mnemonic': '213CPBM', 'createTime': 1770974575000, 'updateTime': 1770974575000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 433, 'level': 1, 'parentId': 0, 'code': '002', 'name': '出门部门1', 'parentName': None, 'brandName': 'CM', 'mnemonic': 'CMBM1', 'createTime': 1770974510000, 'updateTime': 1770974510000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 432, 'level': 1, 'parentId': 0, 'code': '6210', 'name': '部门名称279778', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf351622', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 431, 'level': 1, 'parentId': 0, 'code': '1941', 'name': '部门名称245499', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf867770', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 430, 'level': 1, 'parentId': 0, 'code': '3501', 'name': '部门名称100599', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf572841', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 429, 'level': 1, 'parentId': 0, 'code': '3123', 'name': '部门名称897048', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf847402', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 428, 'level': 1, 'parentId': 0, 'code': '2667', 'name': '部门名称751531', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf77062', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 427, 'level': 1, 'parentId': 0, 'code': '6762', 'name': '部门名称220819', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf336500', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}, {'id': 426, 'level': 1, 'parentId': 0, 'code': '962', 'name': '部门名称542275', 'parentName': None, 'brandName': '品牌324', 'mnemonic': 'zjf584133', 'createTime': 1770195239000, 'updateTime': 1770195239000, 'creatorName': '郑宝宝', 'updaterName': '郑宝宝'}], 'total': 172}, 'msg': ''}[0m
+[32m2026-03-06 19:03:29[0m | [1mINFO    [0m | [36mls_test_dept.py[0m:[36mtest_dept[0m:[36m37[0m | [1m出品部门查询结束[0m
+PASSED
+test_case/ls_test_get_allergen.py::TestAllergen::test_allergen [32m2026-03-06 19:03:29[0m | [1mINFO    [0m | [36mls_test_get_allergen.py[0m:[36mtest_allergen[0m:[36m21[0m | [1m过敏原查询开始[0m
+[32m2026-03-06 19:03:29[0m | [1mINFO    [0m | [36mls_test_get_allergen.py[0m:[36mtest_allergen[0m:[36m23[0m | [1m响应内容：{'code': 0, 'data': {'list': [{'id': 166, 'parentId': 163, 'parentName': None, 'code': '099187', 'name': '香菜过敏', 'enable': 1, 'remark': None, 'createTime': 1770975046000, 'creatorName': '郑宝宝', 'updateTime': 1770975046000, 'updaterName': '郑宝宝', 'createName': '郑宝宝', 'updateName': '郑宝宝', 'creator': '151', 'updater': '151'}, {'id': 165, 'parentId': 162, 'parentName': None, 'code': '099186', 'name': '海鲜过敏', 'enable': 1, 'remark': None, 'createTime': 1770975035000, 'creatorName': '郑宝宝', 'updateTime': 1770975035000, 'updaterName': '郑宝宝', 'createName': '郑宝宝', 'updateName': '郑宝宝', 'creator': '151', 'updater': '151'}, {'id': 164, 'parentId': 162, 'parentName': None, 'code': '099185', 'name': '鸡蛋过敏', 'enable': 1, 'remark': '这是鸡蛋孤傲吗', 'createTime': 1770975022000, 'creatorName': '郑宝宝', 'updateTime': 1770975022000, 'updaterName': '郑宝宝', 'createName': '郑宝宝', 'updateName': '郑宝宝', 'creator': '151', 'updater': '151'}], 'total': 3}, 'msg': ''}[0m
+[32m2026-03-06 19:03:29[0m | [1mINFO    [0m | [36mls_test_get_allergen.py[0m:[36mtest_allergen[0m:[36m42[0m | [1m过敏原查询结束[0m
+PASSED
+test_case/ls_test_get_brand.py::TestBrand::test_brands [32m2026-03-06 19:03:29[0m | [1mINFO    [0m | [36mls_test_get_brand.py[0m:[36mtest_brands[0m:[36m21[0m | [1m品牌查询开始[0m
+[32m2026-03-06 19:03:29[0m | [1mINFO    [0m | [36mls_test_get_brand.py[0m:[36mtest_brands[0m:[36m23[0m | [1m响应内容：{'code': 0, 'data': {'list': [{'id': 1841, 'code': '01', 'brandName': '默认品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1750909074000, 'creatorName': '乔乔', 'updateTime': 1750909074000, 'updaterName': '郑宝宝', 'brandId': '99', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1842, 'code': '09', 'brandName': 'CM', 'enableStr': '启用', 'remark': None, 'createTime': 1750922421000, 'creatorName': '乔乔', 'updateTime': 1750923208000, 'updaterName': '郑宝宝', 'brandId': '39', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1843, 'code': '10', 'brandName': '新增品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1758700243000, 'creatorName': '乔乔', 'updateTime': 1758700243000, 'updaterName': '郑宝宝', 'brandId': '163', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1844, 'code': '11', 'brandName': 'h      @#￥%%…………%……&', 'enableStr': '启用', 'remark': None, 'createTime': 1758707439000, 'creatorName': '乔乔', 'updateTime': 1758709169000, 'updaterName': '郑宝宝', 'brandId': '310', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1845, 'code': '12', 'brandName': '1009品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1759975266000, 'creatorName': '乔乔', 'updateTime': 1759975266000, 'updaterName': '郑宝宝', 'brandId': '309', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1846, 'code': '970119082', 'brandName': '1226品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1766737135000, 'creatorName': '乔乔', 'updateTime': 1766737135000, 'updaterName': '郑宝宝', 'brandId': '316', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1847, 'code': '970119083', 'brandName': '固定品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1766737290000, 'creatorName': '乔乔', 'updateTime': 1766737290000, 'updaterName': '郑宝宝', 'brandId': '317', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1848, 'code': '970119084', 'brandName': '1230品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1767075230000, 'creatorName': '乔乔', 'updateTime': 1767075230000, 'updaterName': '郑宝宝', 'brandId': '318', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1849, 'code': '970119085', 'brandName': '1230品牌11-11', 'enableStr': '启用', 'remark': None, 'createTime': 1767075375000, 'creatorName': '乔乔', 'updateTime': 1767075385000, 'updaterName': '郑宝宝', 'brandId': '319', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}, {'id': 1850, 'code': '970119086', 'brandName': '130品牌', 'enableStr': '启用', 'remark': None, 'createTime': 1769760700000, 'creatorName': '乔乔', 'updateTime': 1769760700000, 'updaterName': '郑宝宝', 'brandId': '323', 'companyName': None, 'companyId': None, 'enable': 1, 'creator': '144', 'updater': '151', 'createName': '乔乔', 'updateName': '郑宝宝'}], 'total': 286}, 'msg': ''}[0m
+[32m2026-03-06 19:03:29[0m | [1mINFO    [0m | [36mls_test_get_brand.py[0m:[36mtest_brands[0m:[36m42[0m | [1m品牌查询结束[0m
+PASSED
+test_case/ls_test_get_spec.py::TestSpec::test_spec [32m2026-03-06 19:03:29[0m | [1mINFO    [0m | [36mls_test_get_spec.py[0m:[36mtest_spec[0m:[36m22[0m | [1m规格查询开始[0m
+[32m2026-03-06 19:03:30[0m | [1mINFO    [0m | [36mls_test_get_spec.py[0m:[36mtest_spec[0m:[36m24[0m | [1m响应内容：{'code': 0, 'data': {'list': [{'id': 1463, 'code': '1778511090', 'name': '213规格', 'enableStr': '启用', 'remark': '这是说明\n', 'createTime': 1770974320000, 'creatorName': '郑宝宝', 'updateTime': 1770975873000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '151', 'updater': '151', 'createName': '郑宝宝', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1403, 'code': '009', 'name': '份', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1402, 'code': '1121006125', 'name': '同步数据', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1401, 'code': '1121006124', 'name': '0924规格', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1400, 'code': '1121006123', 'name': '测试21321', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1399, 'code': 'CF21006124', 'name': '测试123213', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1398, 'code': '001', 'name': '小份', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1397, 'code': '003', 'name': '大份', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1396, 'code': '002', 'name': '中份', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}, {'id': 1395, 'code': '005', 'name': '双份', 'enableStr': '启用', 'remark': None, 'createTime': 1770176855000, 'creatorName': '优海管理员', 'updateTime': 1770176855000, 'updaterName': '郑宝宝', 'type': 2, 'enable': 1, 'creator': '1', 'updater': '151', 'createName': '优海管理员', 'updateName': '郑宝宝', 'jsCode': None}], 'total': 22}, 'msg': ''}[0m
+[32m2026-03-06 19:03:30[0m | [1mINFO    [0m | [36mls_test_get_spec.py[0m:[36mtest_spec[0m:[36m43[0m | [1m规格查询结束[0m
+PASSED
+test_case/ls_test_get_tag.py::TestTag::test_tag [32m2026-03-06 19:03:30[0m | [1mINFO    [0m | [36mls_test_get_tag.py[0m:[36mtest_tag[0m:[36m22[0m | [1m规格查询开始[0m
+[32m2026-03-06 19:03:30[0m | [1mINFO    [0m | [36mls_test_get_tag.py[0m:[36mtest_tag[0m:[36m24[0m | [1m响应内容：{'code': 0, 'data': {'list': [{'id': 437, 'parentId': 434, 'code': '03', 'name': '测试', 'enableStr': '可用', 'remark': '这是说明\n', 'createTime': 1770176880000, 'creatorName': '优海管理员', 'updateTime': 1771032993000, 'updaterName': '郑宝宝', 'parentName': None, 'type': 1, 'enable': 1, 'creator': '1', 'updater': '151'}, {'id': 436, 'parentId': 434, 'code': '02', 'name': '女士专属', 'enableStr': '可用', 'remark': '\\', 'createTime': 1770176880000, 'creatorName': '优海管理员', 'updateTime': 1770176880000, 'updaterName': '优海管理员', 'parentName': None, 'type': 1, 'enable': 1, 'creator': '1', 'updater': '1'}, {'id': 435, 'parentId': 434, 'code': '01', 'name': '无辣不欢', 'enableStr': '可用', 'remark': '\\', 'createTime': 1770176880000, 'creatorName': '优海管理员', 'updateTime': 1770176880000, 'updaterName': '优海管理员', 'parentName': None, 'type': 1, 'enable': 1, 'creator': '1', 'updater': '1'}], 'total': 3}, 'msg': ''}[0m
+[32m2026-03-06 19:03:30[0m | [1mINFO    [0m | [36mls_test_get_tag.py[0m:[36mtest_tag[0m:[36m43[0m | [1m标签查询结束[0m
+PASSED
+test_case/test_api_login.py::TestLogin::test_login[case1_\u6b63\u5411\u767b\u5f55_\u6b63\u786e\u8d26\u53f7\u5bc6\u7801-case_data0] [32m2026-03-06 19:03:30[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m15[0m | [1m开始登录测试[0m
+[32m2026-03-06 19:03:30[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m24[0m | [1m响应内容：{'code': 0, 'data': {'userId': 151, 'accessToken': 'a24792aafc234a5186f0dfc4c50096f0', 'refreshToken': '85a4a95596ec43149b00f9ec08ccc352', 'expiresTime': 1772809409979}, 'msg': ''}[0m
+[32m2026-03-06 19:03:30[0m | [32m[1mSUCCESS [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m28[0m | [32m[1m登录成功，获取到token：a24792aafc234a5186f0dfc4c50096f0[0m
+[32m2026-03-06 19:03:30[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m38[0m | [1m登录测试结束[0m
+PASSED
+test_case/test_api_login.py::TestLogin::test_login[case2_\u5f02\u5e38\u767b\u5f55_\u5bc6\u7801\u9519\u8bef-case_data1] [32m2026-03-06 19:03:30[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m15[0m | [1m开始登录测试[0m
+[32m2026-03-06 19:03:30[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m24[0m | [1m响应内容：{'code': 1002000000, 'data': None, 'msg': '登录失败，账号密码不正确'}[0m
+[32m2026-03-06 19:03:30[0m | [31m[1mERROR   [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m32[0m | [31m[1m断言失败：[case2_异常登录_密码错误] 断言失败：预期msg为空字符串，实际msg="登录失败，账号密码不正确"
+assert '登录失败，账号密码不正确' == ''
+  + 登录失败，账号密码不正确[0m
+[32m2026-03-06 19:03:30[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m38[0m | [1m登录测试结束[0m
+FAILED
+test_case/test_api_login.py::TestLogin::test_login[case3_\u5f02\u5e38\u767b\u5f55_\u8d26\u53f7\u4e0d\u5b58\u5728-case_data2] [32m2026-03-06 19:03:30[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m15[0m | [1m开始登录测试[0m
+[32m2026-03-06 19:03:30[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m24[0m | [1m响应内容：{'code': 1002000000, 'data': None, 'msg': '登录失败，账号密码不正确'}[0m
+[32m2026-03-06 19:03:30[0m | [31m[1mERROR   [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m32[0m | [31m[1m断言失败：[case3_异常登录_账号不存在] 断言失败：预期msg为空字符串，实际msg="登录失败，账号密码不正确"
+assert '登录失败，账号密码不正确' == ''
+  + 登录失败，账号密码不正确[0m
+[32m2026-03-06 19:03:30[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m38[0m | [1m登录测试结束[0m
+FAILED
+test_case/test_api_login.py::TestLogin::test_login[case4_\u5f02\u5e38\u767b\u5f55_\u8d26\u53f7\u4e3a\u7a7a-case_data3] [32m2026-03-06 19:03:30[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m15[0m | [1m开始登录测试[0m
+[32m2026-03-06 19:03:30[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m24[0m | [1m响应内容：{'code': 400, 'data': None, 'msg': '请求参数不正确:登录账号不能为空'}[0m
+[32m2026-03-06 19:03:30[0m | [31m[1mERROR   [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m32[0m | [31m[1m断言失败：[case4_异常登录_账号为空] 断言失败：预期msg为空字符串，实际msg="请求参数不正确:登录账号不能为空"
+assert '请求参数不正确:登录账号不能为空' == ''
+  + 请求参数不正确:登录账号不能为空[0m
+[32m2026-03-06 19:03:30[0m | [1mINFO    [0m | [36mtest_api_login.py[0m:[36mtest_login[0m:[36m38[0m | [1m登录测试结束[0m
+FAILED
+
+================================== FAILURES ===================================
+_ TestLogin.test_login[case2_\u5f02\u5e38\u767b\u5f55_\u5bc6\u7801\u9519\u8bef-case_data1] _
+
+self = <test_api_login.TestLogin object at 0x000001E2C9FF7110>
+case_name = 'case2_异常登录_密码错误'
+case_data = {'input': {'password': '654321', 'rememberMe': True, 'tenantName': '优海源码', 'username': '13335397327'}}
+
+    @pytest.mark.parametrize("case_name, case_data", login_data.items())
+    def test_login(self, case_name, case_data):
+        logger.info('开始登录测试')
+        self.url = 'http://jwzt.jiwusiwei.com/admin-api/system/auth/login'
+        self.headers = {
+            "Content-Type": "application/json",
+            "Accept": "application/json, */*"
+        }
+        try:
+    
+            res = requests.post(url=self.url, headers=self.headers, json=case_data['input'], timeout=10)
+            logger.info(f'响应内容：{res.json()}')
+            # assert res.json().get('msg') == '',  f'断言不通过'
+>           assert res.json().get('msg') == '', \
+                f'[{case_name}] 断言失败：预期msg为空字符串，实际msg="{res.json().get("msg")}"'
+E               AssertionError: [case2_异常登录_密码错误] 断言失败：预期msg为空字符串，实际msg="登录失败，账号密码不正确"
+E               assert '登录失败，账号密码不正确' == ''
+E                 + 登录失败，账号密码不正确
+
+test_case\test_api_login.py:26: AssertionError
+_ TestLogin.test_login[case3_\u5f02\u5e38\u767b\u5f55_\u8d26\u53f7\u4e0d\u5b58\u5728-case_data2] _
+
+self = <test_api_login.TestLogin object at 0x000001E2CA06DF30>
+case_name = 'case3_异常登录_账号不存在'
+case_data = {'input': {'password': '123456', 'rememberMe': True, 'tenantName': '优海源码', 'username': '13800000000'}}
+
+    @pytest.mark.parametrize("case_name, case_data", login_data.items())
+    def test_login(self, case_name, case_data):
+        logger.info('开始登录测试')
+        self.url = 'http://jwzt.jiwusiwei.com/admin-api/system/auth/login'
+        self.headers = {
+            "Content-Type": "application/json",
+            "Accept": "application/json, */*"
+        }
+        try:
+    
+            res = requests.post(url=self.url, headers=self.headers, json=case_data['input'], timeout=10)
+            logger.info(f'响应内容：{res.json()}')
+            # assert res.json().get('msg') == '',  f'断言不通过'
+>           assert res.json().get('msg') == '', \
+                f'[{case_name}] 断言失败：预期msg为空字符串，实际msg="{res.json().get("msg")}"'
+E               AssertionError: [case3_异常登录_账号不存在] 断言失败：预期msg为空字符串，实际msg="登录失败，账号密码不正确"
+E               assert '登录失败，账号密码不正确' == ''
+E                 + 登录失败，账号密码不正确
+
+test_case\test_api_login.py:26: AssertionError
+_ TestLogin.test_login[case4_\u5f02\u5e38\u767b\u5f55_\u8d26\u53f7\u4e3a\u7a7a-case_data3] _
+
+self = <test_api_login.TestLogin object at 0x000001E2CA06DCD0>
+case_name = 'case4_异常登录_账号为空'
+case_data = {'input': {'password': '123456', 'rememberMe': True, 'tenantName': '优海源码', 'username': ''}}
+
+    @pytest.mark.parametrize("case_name, case_data", login_data.items())
+    def test_login(self, case_name, case_data):
+        logger.info('开始登录测试')
+        self.url = 'http://jwzt.jiwusiwei.com/admin-api/system/auth/login'
+        self.headers = {
+            "Content-Type": "application/json",
+            "Accept": "application/json, */*"
+        }
+        try:
+    
+            res = requests.post(url=self.url, headers=self.headers, json=case_data['input'], timeout=10)
+            logger.info(f'响应内容：{res.json()}')
+            # assert res.json().get('msg') == '',  f'断言不通过'
+>           assert res.json().get('msg') == '', \
+                f'[{case_name}] 断言失败：预期msg为空字符串，实际msg="{res.json().get("msg")}"'
+E               AssertionError: [case4_异常登录_账号为空] 断言失败：预期msg为空字符串，实际msg="请求参数不正确:登录账号不能为空"
+E               assert '请求参数不正确:登录账号不能为空' == ''
+E                 + 请求参数不正确:登录账号不能为空
+
+test_case\test_api_login.py:26: AssertionError
+============================== warnings summary ===============================
+test_case/test_api_login.py::TestLogin::test_login[case1_\u6b63\u5411\u767b\u5f55_\u6b63\u786e\u8d26\u53f7\u5bc6\u7801-case_data0]
+  D:\Python313\Lib\site-packages\_pytest\python.py:199: PytestReturnNotNoneWarning: Expected None, but test_case/test_api_login.py::TestLogin::test_login[case1_\u6b63\u5411\u767b\u5f55_\u6b63\u786e\u8d26\u53f7\u5bc6\u7801-case_data0] returned 'a24792aafc234a5186f0dfc4c50096f0', which will be an error in a future version of pytest.  Did you mean to use `assert` instead of `return`?
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+------- generated xml file: D:\Code\api_outo\reports\junit\results.xml --------
+=========================== short test summary info ===========================
+FAILED test_case/test_api_login.py::TestLogin::test_login[case2_\u5f02\u5e38\u767b\u5f55_\u5bc6\u7801\u9519\u8bef-case_data1]
+FAILED test_case/test_api_login.py::TestLogin::test_login[case3_\u5f02\u5e38\u767b\u5f55_\u8d26\u53f7\u4e0d\u5b58\u5728-case_data2]
+FAILED test_case/test_api_login.py::TestLogin::test_login[case4_\u5f02\u5e38\u767b\u5f55_\u8d26\u53f7\u4e3a\u7a7a-case_data3]
+=================== 3 failed, 6 passed, 1 warning in 2.72s ====================
+
+2026-03-06 19:03:30 | INFO     | run1.py:<module>:33 | ===== 所有用例执行结束 =====

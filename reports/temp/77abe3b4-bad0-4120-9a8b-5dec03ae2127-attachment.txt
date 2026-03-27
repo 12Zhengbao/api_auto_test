@@ -1,0 +1,24 @@
+用例失败详情：self = <test_api_login.TestLogin object at 0x0000024C6D4F1F30>
+case_name = 'case3_异常登录_账号不存在'
+case_data = {'input': {'password': '123456', 'rememberMe': True, 'tenantName': '优海源码', 'username': '13800000000'}}
+
+    @pytest.mark.parametrize("case_name, case_data", login_data.items())
+    def test_login(self, case_name, case_data):
+        logger.info('开始登录测试')
+        self.url = 'http://jwzt.jiwusiwei.com/admin-api/system/auth/login'
+        self.headers = {
+            "Content-Type": "application/json",
+            "Accept": "application/json, */*"
+        }
+        try:
+    
+            res = requests.post(url=self.url, headers=self.headers, json=case_data['input'], timeout=10)
+            logger.info(f'响应内容：{res.json()}')
+            # assert res.json().get('msg') == '',  f'断言不通过'
+>           assert res.json().get('msg') == '', \
+                f'[{case_name}] 断言失败：预期msg为空字符串，实际msg="{res.json().get("msg")}"'
+E               AssertionError: [case3_异常登录_账号不存在] 断言失败：预期msg为空字符串，实际msg="登录失败，账号密码不正确"
+E               assert '登录失败，账号密码不正确' == ''
+E                 + 登录失败，账号密码不正确
+
+test_case\test_api_login.py:26: AssertionError
